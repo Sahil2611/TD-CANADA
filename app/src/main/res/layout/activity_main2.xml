@@ -297,20 +297,22 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:text="     Total"
+                    android:layout_marginBottom="4dp"
                     android:textSize="15.5dp"
                     android:background="#F4F7F4"
-                    android:layout_weight="9.32" />
+                    android:layout_weight="1.16" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
-                    android:layout_height="51dp"
-                    android:layout_weight="0.91"
+                    android:layout_height="match_parent"
                     android:textSize="18.5dp"
+                    android:layout_marginBottom="4dp"
                     android:gravity="center_vertical"
                     android:text="               $770.22"
                     android:textColor="#048403"
-                    android:background="#F4F7F4"/>
+                    android:background="#F4F7F4"
+                    android:layout_weight="0.12" />
             </LinearLayout>
 
 

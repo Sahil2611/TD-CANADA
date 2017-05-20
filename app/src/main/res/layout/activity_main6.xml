@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1691589.td_canada.Main6Activity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="662dp"
+        android:background="#F0EFF5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#1B5336"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="-9dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/bar" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="-11dp"
+                android:layout_marginTop="6dp"
+                app:srcCompat="@drawable/td" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="Mobile Deposit History"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="97dp"
+
+            android:layout_marginTop="16dp"
+            android:background="#d3d3d3"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="2dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.84"
+                android:background="#D8E4D7"
+                android:paddingBottom="31dp"
+                android:paddingLeft="21dp"
+                android:paddingRight="31dp"
+                android:paddingTop="31dp"
+                android:padding="25dp"
+                app:srcCompat="@drawable/i" />
+
+            <LinearLayout
+                android:layout_width="325dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="1dp"
+                android:background="#D8E4D7"
+                android:layout_marginLeft="-6dp"
+                android:orientation="vertical"
+                android:layout_weight="0.13">
+
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Mobile deposits submitted in the last 30"
+                    android:textColor="#000"
+
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:text="days are listed below. Dates shown are"
+                    android:textColor="#000"
+
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="the day your cheque was submitted."
+                    android:textColor="#000"
+
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#d3d3d3"
+            android:layout_marginLeft="15dp"
+
+
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="415dp"
+                android:layout_height="61dp"
+                android:textSize="14dp"
+                android:gravity="center_vertical"
+                android:background="#F3F3F8"
+                android:textStyle="bold"
+                android:text="MAY 01,2017" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="94dp"
+            android:background="#d3d3d3"
+            android:orientation="horizontal"
+            android:layout_weight="0.01">
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="92dp"
+                android:layout_marginTop="1dp"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_weight="0.73">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EVERYDAY CHEQUING WITH"
+                    android:textColor="#000"
+                    android:textSize="17.5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STUDENT DISCOUNT"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="17.5dp"/>
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="01:49 PM ET"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:background="#FFF"
+                android:layout_height="92dp"
+                android:paddingLeft="20dp"
+                android:textSize="18.5dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#048403"
+                android:text="$330.00"
+                android:gravity="center_vertical"
+                android:layout_weight="1.42" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#d3d3d3"
+            android:layout_marginLeft="15dp"
+
+
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:textSize="14dp"
+                android:gravity="center_vertical"
+                android:background="#F3F3F8"
+                android:textStyle="bold"
+                android:text="APRIL 24,2017" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="94dp"
+            android:background="#d3d3d3"
+            android:orientation="horizontal"
+            android:layout_weight="0.01">
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="92dp"
+                android:layout_marginTop="1dp"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_weight="0.73">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EVERYDAY CHEQUING WITH"
+                    android:textColor="#000"
+                    android:textSize="17.5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STUDENT DISCOUNT"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="17.5dp"/>
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12:12 PM ET"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:background="#FFF"
+                android:layout_height="92dp"
+                android:textSize="18.5dp"
+                android:textColor="#048403"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:text="$247.50"
+                android:gravity="center_vertical"
+                android:layout_weight="1.42" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#d3d3d3"
+            android:layout_marginLeft="15dp"
+
+
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:textSize="14dp"
+                android:gravity="center_vertical"
+                android:background="#F3F3F8"
+                android:textStyle="bold"
+                android:text="APRIL 17,2017" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="415dp"
+            android:layout_height="95dp"
+            android:background="#d3d3d3"
+            android:orientation="horizontal"
+            android:layout_weight="0.01">
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="92dp"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.73">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EVERYDAY CHEQUING WITH"
+                    android:textColor="#000"
+                    android:textSize="17.5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="16dp"/>
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STUDENT DISCOUNT"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="17.5dp"/>
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11:40 PM ET"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:background="#FFF"
+                android:layout_height="92dp"
+                android:textSize="18.5dp"
+                android:textColor="#048403"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:text="$82.50"
+                android:gravity="center_vertical"
+                android:layout_weight="1.42" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

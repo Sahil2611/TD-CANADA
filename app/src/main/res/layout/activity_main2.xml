@@ -67,21 +67,18 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15dp"
-            android:paddingLeft="19dp"
+            android:background="#F3F3F8"
             android:paddingBottom="10dp"
-            android:layout_weight="0.01"
-            android:text="BANKING"
-            android:background="#F3F3F8"/>
+            android:paddingLeft="19dp"
+            android:paddingTop="16dp"
+            android:text="BANKING" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="397dp"
+            android:layout_height="388dp"
             android:layout_marginTop="3dp"
-            android:layout_weight="0.01"
             android:background="#D3D3D3"
             android:orientation="vertical">
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -90,11 +87,11 @@
 
 
                 <LinearLayout
-                    android:layout_width="200dp"
+                    android:layout_width="240dp"
                     android:layout_height="91dp"
                     android:orientation="vertical"
                     android:weightSum="1"
-                    android:layout_weight="0.50">
+                    android:layout_weight="0.80">
 
                     <TextView
                         android:id="@+id/textView17"
@@ -147,7 +144,7 @@
                     android:layout_height="91dp"
                     android:orientation="vertical"
                     android:weightSum="1"
-                    android:layout_weight="0.50">
+                    android:layout_weight="1.18">
 
                     <TextView
                         android:id="@+id/textView17"
@@ -166,18 +163,18 @@
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="27dp"
-                        android:paddingTop="3dp"
+                        android:layout_weight="0.23"
                         android:background="#fff"
-                        android:textColor="#555555"
+                        android:paddingTop="3dp"
                         android:text="    6623205"
-                        android:textSize="12dp"
-                        android:layout_weight="0.23" />
+                        android:textColor="#555555"
+                        android:textSize="12dp" />
                 </LinearLayout>
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
-                    android:layout_height="74dp"
+                    android:layout_height="73dp"
                     android:layout_weight="0.18"
                     android:background="#fff"
                     android:gravity="center_vertical"
@@ -198,21 +195,160 @@
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_weight="4.84"
+                    android:background="#F4F7F4"
                     android:gravity="center_vertical"
-                    android:text="Total" />
+                    android:text="     Total"
+                    android:textSize="15.5dp"
+                    android:layout_weight="8.73" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="53dp"
                     android:layout_weight="0.91"
+                    android:textSize="18.5dp"
                     android:gravity="center_vertical"
-                    android:text="$345.69" />
+                    android:text="               $345.69"
+                    android:textColor="#048403"
+                    android:background="#F4F7F4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:padding="5dp"
+                    android:background="#F3F3F8"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_vertical"
+                    android:text="    CREDIT"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="91dp"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_weight="1.06">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+
+
+                        android:background="#fff"
+                        android:gravity="bottom"
+                        android:text="   TD CLASSIC TRAVEL VISA CARD"
+                        android:textColor="#000"
+                        android:textSize="17dp"
+                        android:layout_weight="0.20" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="27dp"
+                        android:layout_weight="0.23"
+                        android:background="#fff"
+                        android:paddingTop="3dp"
+                        android:text="    4520020026023318"
+                        android:textColor="#555555"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="73dp"
+                    android:layout_weight="0.18"
+                    android:background="#fff"
+                    android:gravity="center_vertical"
+                    android:text="$770.22"
+                    android:textColor="#048403"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="     Total"
+                    android:textSize="15.5dp"
+                    android:background="#F4F7F4"
+                    android:layout_weight="9.32" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_weight="0.91"
+                    android:textSize="18.5dp"
+                    android:gravity="center_vertical"
+                    android:text="               $770.22"
+                    android:textColor="#048403"
+                    android:background="#F4F7F4"/>
             </LinearLayout>
 
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:background="#F3F3F8">
+
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     Mutual Funds offered by:"
+                android:layout_marginTop="20dp"
+                android:textSize="14dp"
+                android:textColor="#1C1C1C"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1B5336"
+                android:text="     TD Investment Services Inc." />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#1B5336"
+                android:text="     TD Direct Investing &amp; TD Wealth" />
+        </LinearLayout>
+
+
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

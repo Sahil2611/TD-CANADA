@@ -339,13 +339,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#1B5336"
+                android:layout_marginTop="2dp"
                 android:text="     TD Investment Services Inc." />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="7dp"
                 android:textColor="#1B5336"
                 android:text="     TD Direct Investing &amp; TD Wealth" />
         </LinearLayout>

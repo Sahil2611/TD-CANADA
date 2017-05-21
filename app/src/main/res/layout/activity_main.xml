@@ -263,6 +263,8 @@
                         android:layout_weight="0.07"
                         android:background="#fff"
                         android:padding="2dp"
+                        android:clickable="true"
+                        android:onClick="mainClick"
                         app:srcCompat="@drawable/acc" />
 
                     <TextView
@@ -278,7 +280,7 @@
                         android:textColor="#000"
                         android:textSize="17.5dp"
                         android:clickable="true"
-                        android:onClick=""
+                        android:onClick="mainClick"
                         android:gravity="center_vertical"/>
                 </LinearLayout>
 

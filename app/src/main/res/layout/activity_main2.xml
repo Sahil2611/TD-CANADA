@@ -40,6 +40,8 @@
                 android:layout_height="31dp"
                 android:layout_marginLeft="-9dp"
                 android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="home"
                 app:srcCompat="@drawable/bar" />
 
             <ImageView
@@ -96,14 +98,25 @@
                     <TextView
                         android:id="@+id/textView51"
                         android:layout_width="match_parent"
-                        android:layout_height="57dp"
+                        android:layout_height="40dp"
 
                         android:layout_marginTop="1dp"
-                        android:layout_weight="0.00"
                         android:background="#fff"
                         android:gravity="bottom"
-                        android:text="   EVERYDAY CHEQUING WITH
-   STUDENT DISCOUNT"
+                        android:text="   EVERYDAY CHEQUING WITH"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+
+                        android:layout_marginTop="-4dp"
+                        android:layout_weight="0.00"
+                        android:background="#fff"
+                        android:gravity="center_vertical"
+                        android:text="   STUDENT DISCOUNT"
                         android:textColor="#000"
                         android:textSize="17dp" />
 

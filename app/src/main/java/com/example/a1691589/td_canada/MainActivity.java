@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     void mainClick(View view) {
         //setContentView(R.layout.activity_main2);
-        Intent i = new Intent(getApplicationContext(),Main2Activity.class);
+        Intent i = new Intent(getApplicationContext(),Main8Activity.class);
         startActivity(i);
     }
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     void mainClick3(View view) {
 //        setContentView(R.layout.activity_main7);
-    Intent i = new Intent(getApplicationContext(),Main5Activity.class);
+        Intent i = new Intent(getApplicationContext(),Main5Activity.class);
         startActivity(i);
     }
 }

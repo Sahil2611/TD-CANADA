@@ -123,8 +123,9 @@
                     <TextView
                         android:id="@+id/textView52"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:paddingTop="2dp"
+                        android:layout_height="35dp"
+                        android:paddingTop="-5dp"
+                        android:gravity="top"
                         android:background="#fff"
                         android:textColor="#555555"
                         android:text="    6615245"

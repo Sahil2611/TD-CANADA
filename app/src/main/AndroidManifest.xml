@@ -16,7 +16,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main6Activity"></activity>
+        <activity
+            android:name=".Main6Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Main5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Main7Activity"
+            android:label="@string/title_activity_main7"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:exported="true" />
     </application>
 
 </manifest>

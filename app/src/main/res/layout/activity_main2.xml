@@ -40,8 +40,6 @@
                 android:layout_height="31dp"
                 android:layout_marginLeft="-9dp"
                 android:layout_marginTop="8dp"
-                android:clickable="true"
-                android:onClick="home"
                 app:srcCompat="@drawable/bar" />
 
             <ImageView

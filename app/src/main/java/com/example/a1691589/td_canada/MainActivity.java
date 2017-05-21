@@ -18,21 +18,26 @@ public class MainActivity extends AppCompatActivity {
 
 
     void mainClick(View view) {
-        setContentView(R.layout.activity_main2);
+        //setContentView(R.layout.activity_main2);
+        Intent i = new Intent(getApplicationContext(),Main2Activity.class);
+        startActivity(i);
     }
 
     void mainClick1(View view) {
-        setContentView(R.layout.activity_main3);
-
+//        setContentView(R.layout.activity_main3);
+        Intent i = new Intent(getApplicationContext(),Main3Activity.class);
+        startActivity(i);
     }
 
     void mainClick2(View view) {
-        setContentView(R.layout.activity_main4);
-
+        //setContentView(R.layout.activity_main4);
+        Intent i = new Intent(getApplicationContext(),Main4Activity.class);
+        startActivity(i);
     }
 
     void mainClick3(View view) {
-        setContentView(R.layout.activity_main5);
-
+//        setContentView(R.layout.activity_main7);
+    Intent i = new Intent(getApplicationContext(),Main5Activity.class);
+        startActivity(i);
     }
 }

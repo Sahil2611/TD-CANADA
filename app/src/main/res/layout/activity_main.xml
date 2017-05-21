@@ -134,6 +134,8 @@
                         android:id="@+id/imageView7"
                         android:layout_width="70dp"
                         android:layout_height="71dp"
+                        android:clickable="true"
+                        android:onClick="mainClick2"
                         android:layout_marginLeft="9dp"
 
                         app:srcCompat="@drawable/trans" />
@@ -145,6 +147,8 @@
                         android:layout_marginLeft="11dp"
                         android:layout_marginTop="3.7dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:onClick="mainClick2"
                         android:text="  TRANSFER"
                         android:textColor="#ffffff"
                         android:textSize="11.7dp" />
@@ -185,6 +189,8 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_marginLeft="24dp"
+                        android:clickable="true"
+                        android:onClick="mainClick3"
                         app:srcCompat="@drawable/deposnow" />
 
                     <TextView
@@ -193,6 +199,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:text="           DEPOSIT"
+                        android:clickable="true"
+                        android:onClick="mainClick3"
                         android:textColor="#ffffff"
                         android:textSize="11.7dp" />
 
@@ -301,6 +309,8 @@
                         android:layout_marginTop="1dp"
                         android:background="#fff"
                         android:padding="2dp"
+                        android:clickable="true"
+                        android:onClick="mainClick2"
                         app:srcCompat="@drawable/transnow"
                         android:layout_weight="0.05" />
 
@@ -315,6 +325,8 @@
                         android:background="#ffffff"
                         android:gravity="center_vertical"
                         android:text="Transfers"
+                        android:clickable="true"
+                        android:onClick="mainClick2"
                         android:textColor="#000"
 
                         android:textSize="17.5dp" />
@@ -337,6 +349,8 @@
                         android:layout_marginTop="1dp"
                         android:background="#fff"
                         android:padding="2dp"
+                        android:clickable="true"
+                        android:onClick="mainClick1"
                         app:srcCompat="@drawable/bill" />
 
                     <TextView
@@ -348,6 +362,8 @@
                         android:layout_marginTop="1dp"
                         android:background="#ffffff"
                         android:text=" Bills"
+                        android:clickable="true"
+                        android:onClick="mainClick1"
                         android:textColor="#000"
                         android:gravity="center_vertical"
                         android:textSize="17.5dp"

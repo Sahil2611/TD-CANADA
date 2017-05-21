@@ -136,7 +136,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView32"
+                android:id="@+id/textView61"
                 android:layout_width="415dp"
                 android:layout_height="61dp"
                 android:textSize="14dp"
@@ -162,7 +162,7 @@
                 android:layout_weight="0.73">
 
                 <TextView
-                    android:id="@+id/textView38"
+                    android:id="@+id/textView62"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="EVERYDAY CHEQUING WITH"
@@ -172,7 +172,7 @@
                     android:layout_marginTop="16dp"/>
 
                 <TextView
-                    android:id="@+id/textView37"
+                    android:id="@+id/textView63"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="STUDENT DISCOUNT"
@@ -181,7 +181,7 @@
                     android:textSize="17.5dp"/>
 
                 <TextView
-                    android:id="@+id/textView36"
+                    android:id="@+id/textView64"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="01:49 PM ET"
@@ -190,7 +190,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView35"
+                android:id="@+id/textView65"
                 android:layout_width="wrap_content"
                 android:background="#FFF"
                 android:layout_height="92dp"
@@ -215,7 +215,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView32"
+                android:id="@+id/textView67"
                 android:layout_width="match_parent"
                 android:layout_height="61dp"
                 android:textSize="14dp"
@@ -242,7 +242,7 @@
                 android:layout_weight="0.73">
 
                 <TextView
-                    android:id="@+id/textView38"
+                    android:id="@+id/textView68"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="EVERYDAY CHEQUING WITH"
@@ -252,7 +252,7 @@
                     android:layout_marginTop="16dp"/>
 
                 <TextView
-                    android:id="@+id/textView37"
+                    android:id="@+id/textView69"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="STUDENT DISCOUNT"
@@ -261,7 +261,7 @@
                     android:textSize="17.5dp"/>
 
                 <TextView
-                    android:id="@+id/textView36"
+                    android:id="@+id/textView70"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="12:12 PM ET"
@@ -270,7 +270,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView35"
+                android:id="@+id/textView71"
                 android:layout_width="wrap_content"
                 android:background="#FFF"
                 android:layout_height="92dp"

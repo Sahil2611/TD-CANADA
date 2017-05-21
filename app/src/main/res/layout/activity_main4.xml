@@ -73,7 +73,7 @@
             android:weightSum="1">
 
             <TextView
-                android:id="@+id/textView24"
+                android:id="@+id/textView90"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="bottom"
@@ -83,7 +83,7 @@
                 android:layout_weight="0.12" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/editText11"
                 android:layout_width="397dp"
                 android:layout_height="15dp"
                 android:ems="10"
@@ -95,7 +95,7 @@
                 android:text="       Select From Account" />
 
             <ImageView
-                android:id="@+id/imageView18"
+                android:id="@+id/imageView92"
                 android:layout_width="387dp"
                 android:layout_marginLeft="12dp"
                 android:layout_height="17dp"
@@ -195,7 +195,7 @@
 
 
                 <TextView
-                    android:id="@+id/textView27"
+                    android:id="@+id/textView93"
                     android:layout_width="53dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
@@ -206,7 +206,7 @@
                     android:textSize="17.5dp" />
 
                 <TextView
-                    android:id="@+id/textView27"
+                    android:id="@+id/textView94"
                     android:layout_width="53dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="15dp"
